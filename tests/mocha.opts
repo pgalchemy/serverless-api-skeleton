@@ -1,0 +1,6 @@
+--require babel-polyfill
+--require test/util/setup.js
+--require test/util/env.js
+--require babel-core/register
+--reporter spec
+--timeout 5000
