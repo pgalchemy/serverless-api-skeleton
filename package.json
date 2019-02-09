@@ -1,0 +1,11 @@
+{
+  "name": "serverless-skeleton",
+  "version": "1.0.0",
+  "description": "Skeleton to set up a serverless api backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
