@@ -4,3 +4,7 @@ jspm_packages
 
 # Serverless directories
 .serverless
+
+# Configs
+config/*
+!config/example.yml

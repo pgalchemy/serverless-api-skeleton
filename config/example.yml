@@ -1,0 +1,9 @@
+environment:
+  AWS_REGION: us-east-1
+aws:
+  role: arn:aws:iam::xxxxx:role/lambda-rol
+  vpc:
+    securityGroupIds:
+      - sg-xxxxxxxx
+    subnetIds:
+      - subnet-xxxxxxxx
