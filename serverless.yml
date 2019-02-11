@@ -31,6 +31,7 @@ package:
     - .eslintrc
     - .editorconfig
     - .npmignore
+    - node_modules
 
 # The `functions` block defines what code to deploy
 functions:
@@ -39,7 +40,6 @@ functions:
     timeout: 120
   helloWorld:
     handler: src/handlers/rest/helloWorld.handler
-    # The `events` block defines how to trigger the handler.helloWorld code
     events:
       - schedule: rate(5 minutes)
       - http:
