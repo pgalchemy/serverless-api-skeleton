@@ -8,3 +8,5 @@ jspm_packages
 # Configs
 config/*
 !config/example.yml
+
+.webpack
